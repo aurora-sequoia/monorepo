@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "emote"
+version = "0.0.1"
+description = ""
+
+[tool.hatch.build.targets.wheel]
+packages = ["emote"]
+[tool.hatch.version]
