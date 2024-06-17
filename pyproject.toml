@@ -13,6 +13,9 @@ dependencies = []
 [tool.ruff.lint.extend-per-file-ignores]
 "libraries/emote/emote.py" = ["T201"]
 
+[tool.hatch.envs.hatch-static-analysis]
+dependencies = ["ruff==^0.1.13"]
+
 
 
 

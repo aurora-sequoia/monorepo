@@ -1,5 +1,7 @@
 # monorepo
 
+This is a sandbox repo for exploring how PyPa's Hatch tool works.
+
 ## Static Analysis
 
 Hatch has ruff built in.
