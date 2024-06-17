@@ -1,0 +1,18 @@
+[project]
+name = "kpi-monorepo"
+version = "0.0.1"
+description = ""
+dependencies = []
+
+########################
+# Static Analysis
+########################
+# If the lint/format/isort requirements get extensive, 
+# they can be pulled out into a separate ruff.toml file.
+
+[tool.ruff.lint.extend-per-file-ignores]
+"libraries/emote/emote.py" = ["T201"]
+
+
+
+
